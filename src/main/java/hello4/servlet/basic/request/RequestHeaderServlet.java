@@ -41,7 +41,6 @@ public class RequestHeaderServlet extends HttpServlet {
         System.out.println(headerName + ": " + request.getHeader(headerName));
     }
 
-
     System.out.println("--- Headers - end ---");
     System.out.println();
   }
